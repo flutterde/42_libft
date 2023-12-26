@@ -19,7 +19,7 @@ cd 42_libft
 make 
 ```
 
-This will compile the libft.a library which you can then include in your C projects.
+This will compile the `libft.a` library which you can then include in your C projects.
 
 ## Usage:
 
@@ -40,7 +40,7 @@ cc -Wall -Wextra -Werror your_main.c libft.a
 
 ```
 
-Make sure to specify the path to libft.a if it’s not in the same directory as your source files.
+Make sure to specify the path to `libft.a` if it’s not in the same directory as your source files.
 
 ## Functions included:
 The functions in this library are divided into several categories:
@@ -100,7 +100,7 @@ The functions in this library are divided into several categories:
 
 ## Bonus Part
 
-As part of the bonus requirements for the Libft project, the following functions have been included to handle linked lists:
+As part of the `bonus` requirements for the Libft project, the following functions have been included to handle linked lists:
 
 ### Linked List Functions
 
