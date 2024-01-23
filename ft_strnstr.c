@@ -15,10 +15,8 @@
 static int	is_found(char *haystack, char *needle, size_t len)
 {
 	size_t	i;
-	size_t	j;
 
 	i = 0;
-	j = 0;
 	while (haystack[i] && i < len && needle[i] && (haystack[i] == needle[i]))
 		i++;
 	if ((!haystack[i] || i >= len) && needle[i])
